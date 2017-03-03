@@ -1,0 +1,30 @@
+﻿{
+  "authors": [
+    "One Frame Link"
+  ],
+  "description": "Abstractions used by the Ofl.Google.Maps project.",
+  "supports": {},
+  "dependencies": {
+    "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+    "NETStandard.Library": "1.6.0",
+    "Newtonsoft.Json": "9.0.1",
+    "Ofl.Google.Contracts": "1.0.3"
+  },
+  "frameworks": {
+    "netstandard1.0": {}
+  },
+  "packOptions": {
+    "owners": [
+      "One Frame Link"
+    ],
+    "summary": "Abstractions used by the Ofl.Google.Maps project.",
+    "projectUrl": "https://github.com/OneFrameLink/Ofl.Google.Maps.Contracts",
+    "iconUrl": "https://raw.githubusercontent.com/OneFrameLink/Ofl._Shared/master/OneFrameLink_225x225.png",
+    "licenseUrl": "https://raw.githubusercontent.com/OneFrameLink/Ofl._Shared/master/LICENSE.md",
+    "requireLicenseAcceptance": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OneFrameLink/Ofl.Google.Maps.Contracts.git"
+    }
+  }
+}
