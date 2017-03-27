@@ -42,11 +42,18 @@
     <Compile Include="..\_shared\GlobalAssemblyInfo.cs">
       <Link>[common]\GlobalAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Geocode\AddressComponent.cs" />
+    <Compile Include="Geocode\Coordinates.cs" />
+    <Compile Include="Geocode\GeocodeRequest.cs" />
+    <Compile Include="Geocode\GeocodeResponse.cs" />
+    <Compile Include="Geocode\Geometry.cs" />
+    <Compile Include="Geocode\Result.cs" />
+    <Compile Include="Geocode\Viewport.cs" />
     <Compile Include="IMapsClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serialization\Newtonsoft\SecondsToTimeSpanJsonConverter.cs" />
-    <Compile Include="TimeZoneRequest.cs" />
-    <Compile Include="TimeZoneResponse.cs" />
+    <Compile Include="TimeZone\TimeZoneRequest.cs" />
+    <Compile Include="TimeZone\TimeZoneResponse.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
